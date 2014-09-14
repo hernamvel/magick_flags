@@ -24,7 +24,7 @@ Just call the draw method for the country you want to paint its flag:
     image = MagickFlags::Colombia.draw
     image.write('colombia.png')
 
-The draw method will give you a rmagic Draw class, so you can do whatever you want with it.  For example in a rails controller that respond to http://<whatever>/<rails controller>/colombia.png
+The draw method will give you a rmagic Draw class, so you can do whatever you want with it.  For example in a rails controller that respond to http://whatever/rails controller/colombia.png
 
     format.png do
        send_data image.to_blob, :filename => 'colombia.png',
