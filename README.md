@@ -18,14 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-    Just call the draw method for the country you want to paint its flag:
+Just call the draw method for the country you want to paint its flag:
 
     require 'magick_flags'
     image = MagickFlags::Colombia.draw
     image.write('colombia.png')
 
-    The draw method will give you a rmagic Draw class, so you can do whatever you want with it.  For example in a rails
-    controller that respond to http://<whatever>/<rails controller>/colombia.png
+The draw method will give you a rmagic Draw class, so you can do whatever you want with it.  For example in a rails controller that respond to http://<whatever>/<rails controller>/colombia.png
 
     format.png do
        send_data image.to_blob, :filename => 'colombia.png',
@@ -33,8 +32,7 @@ Or install it yourself as:
           :type => 'image/png'
     end
 
-    The first flag I made was the Colombian flag (my home country... and yes, because it was very easy to do).  Feel free
-    to contibute.
+The first flag I made was the Colombian flag (my home country... and yes, because it was very easy to do).  Feel free to contibute.
    
 ## Contributing
 
