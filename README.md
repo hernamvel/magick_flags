@@ -33,6 +33,8 @@ The draw method will give you a rmagic Draw class, so you can do whatever you wa
     end
 
 The first flag I made was the Colombian flag (my home country... and yes, because it was very easy to do).  Feel free to contibute.
+
+For a list of the available flags, please see the lib/countries.rb file.
    
 ## Contributing
 
