@@ -4,7 +4,7 @@ include Magick
 
 module MagickFlags
 
-  class England < MagickFlags::Base
+  class Denmark < MagickFlags::Base
     
     def self.draw
       image = Image.new(@@width,@@height)
