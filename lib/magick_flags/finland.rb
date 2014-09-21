@@ -4,16 +4,16 @@ include Magick
 
 module MagickFlags
 
-  class Denmark < MagickFlags::Base
+  class Finland < MagickFlags::Base
     
     def self.draw
       image = Image.new(@@width,@@height)
       gc = Magick::Draw.new
-      gc.fill('red')
-      gc.rectangle(0, 0, @@width, @@height)
       gc.fill('white')
-      gc.rectangle(@@width * 0.30, 0, @@width * 0.35, @@height)
-      gc.rectangle(0, @@height * 0.44, @@width, @@height * 0.56)
+      gc.rectangle(0, 0, @@width, @@height)
+      gc.fill('#18447E')
+      gc.rectangle(@@width * 0.25, 0, @@width * 0.4, @@height)
+      gc.rectangle(0, @@height * 0.40, @@width, @@height * 0.6)
       gc.draw(image)
       image
     end
