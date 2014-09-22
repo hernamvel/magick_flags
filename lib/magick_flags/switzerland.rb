@@ -12,8 +12,9 @@ module MagickFlags
       gc.fill('red')
       gc.rectangle(0, 0, @@width, @@height)
       gc.fill('white')
-      gc.rectangle(@@width * 0.30, 0, @@width * 0.35, @@height)
-      gc.rectangle(0, @@height * 0.44, @@width, @@height * 0.56)
+      gc.rectangle(@@width * 0.45, @@height * 0.2, @@width * 0.55, @@height * 0.8)
+      gc.rectangle(@@width * 0.35, @@height * 0.4, @@width * 0.65, @@height * 0.6)
+
       gc.draw(image)
       image
     end
