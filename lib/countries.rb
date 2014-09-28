@@ -2,6 +2,7 @@
 require "magick_flags/austria"
 require "magick_flags/chile"
 require "magick_flags/colombia"
+require "magick_flags/costarica"
 require "magick_flags/denmark"
 require "magick_flags/england"
 require "magick_flags/finland"
