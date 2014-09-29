@@ -9,7 +9,7 @@ module MagickFlags
     def self.draw
       image = Image.new(@@width,@@height)
       gc = Magick::Draw.new
-      gc.fill('green')
+      gc.fill('blue')
       gc.rectangle(0, 0, @@width * 0.33, @@height)
       gc.fill('white')
       gc.rectangle(@@width * 0.33, 0, @@width * 0.66, @@height)
