@@ -1,5 +1,6 @@
 
 require "magick_flags/austria"
+require "magick_flags/bahamas"
 require "magick_flags/belgium"
 require "magick_flags/chile"
 require "magick_flags/colombia"
