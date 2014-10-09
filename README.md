@@ -1,6 +1,6 @@
 # MagickFlags
 
-TODO: Draw the flags of the countries of the world using rmagick
+TODO: Draw the flags of the countries of the world using strctly the rmagick functions.
 
 ## Installation
 
