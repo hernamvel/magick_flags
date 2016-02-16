@@ -44,5 +44,5 @@ For a list of the available flags, please see the lib/countries.rb file.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
-Please no cheating.  Only use the rmagick functions.  No external images allowed :)
+Please no cheating, and just use the rmagick functions.  No external images allowed :)
 
